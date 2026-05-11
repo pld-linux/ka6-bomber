@@ -6,6 +6,7 @@
 %define		qtver		5.15.2
 %define		kaname		bomber
 Summary:	Single player arcade game
+Summary(pl.UTF-8):	Jednoosobowa gra zręcznościowa
 Name:		ka6-%{kaname}
 Version:	26.04.1
 Release:	1
