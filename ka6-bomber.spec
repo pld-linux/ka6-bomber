@@ -1,19 +1,19 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	26.08.2
+%define		kdeappsver	26.08.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		bomber
 Summary:	Single player arcade game
 Summary(pl.UTF-8):	Jednoosobowa gra zręcznościowa
 Name:		ka6-%{kaname}
-Version:	26.08.2
+Version:	26.08.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	93ebbbe4f03216d177fd23cb05cacb48
+# Source0-md5:	d7785668ef13890a82d469a2ad428bd0
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
